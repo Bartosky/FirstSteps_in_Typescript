@@ -10,5 +10,5 @@ var Student = /** @class */ (function () {
 function greeter(person) {
     return "Hello, " + person.firstName + " " + person.middleInitial + " " + person.lastName;
 }
-var user = new Student("Bart", "B.M.", "Mal");
+var user = new Student("Bart", "BaaM.", "Mal");
 document.body.textContent = greeter(user);
